@@ -1,12 +1,12 @@
 # pupil_project
 Code accompanying the paper: Chang, H.*, Tang, W.*, et al. (2024). Sleep micro-structure organizes memory replay. Nature.
 
-+-------------------------------------------------------------------------+
-|            Sleep micro-structure organizes memory replay                |
-+-------------------------------------------------------------------------+
-README.txt
-Copyright (C) 2024, Wenbo Tang, version 1.0
-All rights reserved.
+# Sleep Micro-Structure Organizes Memory Replay
+
+**Version**: 1.0  
+**Author**: Wenbo Tang  
+**Year**: 2024  
+**License**: All rights reserved.
 
 DESCRIPTION OF THE CODE CONTAINED IN THE ARCHIVE: Tang_Nature_2024.tgz
 
@@ -44,46 +44,78 @@ These codes were originally created in the MATLAB 2017a and 2023b. Source data p
 
 FILES and FOLDERS
 =================
-  ./Fig1
-  pupil_periodic_Fig1c.m : main script for calculating the periodicity of pupil-size dynamics in Fig. 1c
-  sleepstate_umap_ALLstates_Fig1d.m : main script for generating example UMAP plots, demonstrating the sleep state-pupil relationship in Fig. 1d
-  SleepState_LFPfeatures_ALLStates_preprocess_Fig1e.m: preprocessing script for gathering LFP features across all sleep states for calculating structure indices (SIs)
-  SleepState_LFPfeatures_NREM_preprocess_Fig1e.m: preprocessing script for gathering LFP features within NREM for calculating structure indices
-  SleepState_rawLFPfeatures_ALLStates_StructureIndex_Fig1e.m: main script for calculating SI using LFP features across all sleep states shown in Fig. 1e
-  SleepState_rawLFPfeatures_NREM_StructureIndex_Fig1e.m: main script for calculating SI using LFP features within NREM shown in Fig. 1e
-  RippleLFP_pupil_umap_example_Fig1g.m:  main script for generating example UMAP plots demonstrating the ripple-pupil relationship in Fig. 1g
-  RippleLFP_pupil_prerprocessing_Fig1h.m: preprocessing script gathering ripple LFP features during NREM sleep for calculating structure indices (SIs)
-  RippleLFP_pupil_rawStructureIndx_Fig1h.m: main script for calculating SI using ripple LFP features within NREM shown in Fig. 1h
+# Code Organization
 
-  ./Fig2
-  Replay_triggered_pupil_acrossanimal_matchMUA_Fig2b.m  : main script for calculating replay probabilities across sextiles of pupil size during NREM shown in Fig. 2b. Firing-rate matched distribution shown in EDFig. 5d is also calculated. See also .../src/ReplayDecoding/ for replay decoding demonstration
-  AllSWR_properties_triggered_pupil_forGLM_Fig2ce.m: preprocessing script for gathering ripple and replay properties in relation to pupil size for GLMs and measuring replay percentage. 
-  Pupil_replayprc_stats_Fig2c.m	: main script for calculating replay percentages across sextiles of pupil sizes during NREM shown in Fig. 2c
-  glmgain_ripple_predict_pupil_Fig2e.m: main script for predicting pupil size using ripple and replay properties shown in Fig. 2e
+This repository contains scripts and resources for analyzing data and generating figures for the project. Below is a breakdown of the folder structure and their respective scripts.
 
-  ./Fig3
-  cal_Cheeseboard_pathLength_Fig3b.m : main script for calculating path length in the Cheeseboard task shown in Fig. 3. Other behavioral measures are provided in Source Data files.
+---
 
-  ./Fig4 
-  Reactivation_FamiliarNovel_triggered_pupil_acrossanimal_Fig4e.m : main script for calculating reactivation strength in novel versus familiar environments across pupil sizes, shown in Fig. 4e. See also .../src/ReactivationStrength/ for demonstration of calculating RS. 
-  Preexist_Reactivation_triggered_pupil_acrossanimal_Fig4g.m : main script for calculating reactivation strength for rigid (pre-existing) vs. plastic assemblies across pupil sizes, shown in Fig. 4g
-  RankOrder_pupil_acrossanimal_Fig4h : main script for rank order correlation between PRE and POST sleep cross pupil sizes, shown in Fig. 4h
+## `./Fig1`
+Scripts for analyses and visualizations in **Figure 1**:
 
-  ./Fig5
-  MUAINT_triggered_pupil_sleep_acrossanimal_Fig5b.m : main script for measuring the relationship between pupil size and PYR and INT firing rate shown in Fig. 5b and EDFig. 10
-  CCGtransmission_pupilRippletile_acrossanimals_Fig5d.m	: main script for gathering spike transmission probability of monosynaptic PYR-INT pairs across pupil sizes, shown in Fig. 5d
-  CCGtransmission_pupilRippletile.m : function for calculating spike transmission probability of monosynaptic PYR-INT pairs across pupil sizes
-  OptoRippleamp_SpontRipple_triggered_pupil_acrossanimal_Fig5f.m: main script for calculating amplitude of spontaneous ripples across pupil sizes shown in Fig. 5f. 
-  OptoRippleamp_triggered_pupil_acrossanimal_Fig5f.m: main script for calculating amplitude of optogenetically induced ripples across pupil sizes shown in Fig. 5f. 
+- `pupil_periodic_Fig1c.m`: Main script for calculating the periodicity of pupil-size dynamics in **Fig. 1c**.
+- `sleepstate_umap_ALLstates_Fig1d.m`: Main script for generating UMAP plots demonstrating the sleep state-pupil relationship in **Fig. 1d**.
+- `SleepState_LFPfeatures_ALLStates_preprocess_Fig1e.m`: Preprocessing script for gathering LFP features across all sleep states for structure indices (SIs).
+- `SleepState_LFPfeatures_NREM_preprocess_Fig1e.m`: Preprocessing script for gathering LFP features within NREM for structure indices.
+- `SleepState_rawLFPfeatures_ALLStates_StructureIndex_Fig1e.m`: Main script for calculating SI using LFP features across all sleep states (**Fig. 1e**).
+- `SleepState_rawLFPfeatures_NREM_StructureIndex_Fig1e.m`: Main script for calculating SI using LFP features within NREM (**Fig. 1e**).
+- `RippleLFP_pupil_umap_example_Fig1g.m`: Main script for generating UMAP plots demonstrating the ripple-pupil relationship in **Fig. 1g**.
+- `RippleLFP_pupil_prerprocessing_Fig1h.m`: Preprocessing script for gathering ripple LFP features during NREM for structure indices (SIs).
+- `RippleLFP_pupil_rawStructureIndx_Fig1h.m`: Main script for calculating SI using ripple LFP features during NREM (**Fig. 1h**).
 
-  ./src : 
-  subfolder containing demonstrations of key analysis steps, including detecting SWR-associated high-synchrony events (HSEs), calculating reactivation strength, and replay decoding. 
+---
 
-  ./utilities : 
-  subfolder containing all the helper functions.
+## `./Fig2`
+Scripts for analyses in **Figure 2**:
 
-  ./toolbox : 
-  subfolder containing all the toolboxes used. Please refer to the original work from the developers.
+- `Replay_triggered_pupil_acrossanimal_matchMUA_Fig2b.m`: Main script for calculating replay probabilities across pupil size sextiles during NREM (**Fig. 2b**). Includes firing-rate matched distribution (**EDFig. 5d**). See also `.../src/ReplayDecoding/` for replay decoding demonstration.
+- `AllSWR_properties_triggered_pupil_forGLM_Fig2ce.m`: Preprocessing script for gathering ripple and replay properties relative to pupil size for GLMs.
+- `Pupil_replayprc_stats_Fig2c.m`: Main script for calculating replay percentages across pupil size sextiles during NREM (**Fig. 2c**).
+- `glmgain_ripple_predict_pupil_Fig2e.m`: Main script for predicting pupil size using ripple and replay properties (**Fig. 2e**).
+
+---
+
+## `./Fig3`
+Scripts for analyses in **Figure 3**:
+
+- `cal_Cheeseboard_pathLength_Fig3b.m`: Main script for calculating path length in the Cheeseboard task (**Fig. 3b**). Other behavioral measures are in Source Data files.
+
+---
+
+## `./Fig4`
+Scripts for analyses in **Figure 4**:
+
+- `Reactivation_FamiliarNovel_triggered_pupil_acrossanimal_Fig4e.m`: Main script for calculating reactivation strength in novel vs. familiar environments across pupil sizes (**Fig. 4e**). See also `.../src/ReactivationStrength/`.
+- `Preexist_Reactivation_triggered_pupil_acrossanimal_Fig4g.m`: Main script for calculating reactivation strength for rigid (pre-existing) vs. plastic assemblies (**Fig. 4g**).
+- `RankOrder_pupil_acrossanimal_Fig4h.m`: Main script for rank order correlation between PRE and POST sleep across pupil sizes (**Fig. 4h**).
+
+---
+
+## `./Fig5`
+Scripts for analyses in **Figure 5**:
+
+- `MUAINT_triggered_pupil_sleep_acrossanimal_Fig5b.m`: Main script for measuring the relationship between pupil size and PYR/INT firing rates (**Fig. 5b**, **EDFig. 10**).
+- `CCGtransmission_pupilRippletile_acrossanimals_Fig5d.m`: Main script for gathering spike transmission probability of monosynaptic PYR-INT pairs (**Fig. 5d**).
+- `CCGtransmission_pupilRippletile.m`: Function for calculating spike transmission probability of monosynaptic PYR-INT pairs.
+- `OptoRippleamp_SpontRipple_triggered_pupil_acrossanimal_Fig5f.m`: Main script for calculating amplitude of spontaneous ripples (**Fig. 5f**).
+- `OptoRippleamp_triggered_pupil_acrossanimal_Fig5f.m`: Main script for calculating amplitude of optogenetically induced ripples (**Fig. 5f**).
+
+---
+
+## Subfolders
+
+### `./src`
+Contains demonstrations of key analysis steps, including:
+- Detecting SWR-associated high-synchrony events (HSEs).
+- Calculating reactivation strength.
+- Replay decoding.
+
+### `./utilities`
+Contains all helper functions.
+
+### `./toolbox`
+Contains all required toolboxes. Refer to the original works from the developers for more information.
+
 
 
 CITING OUR WORK
