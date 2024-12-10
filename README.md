@@ -1,6 +1,6 @@
 # pupil_project
 Code accompanying the paper: Chang, H.*, Tang, W.*, et al. (2024). Sleep micro-structure organizes memory replay. Nature.
-
+![Sleep Micro-Structure](image&videos/IMG_2716_1.jpg)
 # Sleep Micro-Structure Organizes Memory Replay
 
 - **Version**: 1.0  
