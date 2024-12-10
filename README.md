@@ -1,4 +1,4 @@
-# pupil_project <img src="image&videos/lab_logo.png" alt="Lab Logo" width="50">
+# pupil_project <img src="image&videos/lab_logo.jpg" alt="Lab Logo" width="50">
 Code accompanying the paper: Chang, H.*, Tang, W.*, et al. (2024). Sleep micro-structure organizes memory replay. Nature.
 ![Sleep Micro-Structure](image&videos/mouse_eye_naturallight.jpg)
 *Image taken by ZiFang Zhao, Hongyu Chang and Heath Robinson*
