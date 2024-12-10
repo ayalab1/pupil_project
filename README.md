@@ -122,7 +122,8 @@ CITING OUR WORK
 ===============
 
 If you find the code useful, please cite the code source and the paper:
-    Chang, H.*, Tang, W.*, Wulf, A. M., Nyasulu, T., Wolf, M. E., Fernandez-Ruiz, A., & Oliva, A.,(2024). Sleep micro-structure organizes memory replay. Nature.
+**Chang, H.*, Tang, W.*, Wulf, A. M., Nyasulu, T., Wolf, M. E., Fernandez-Ruiz, A., & Oliva, A.** (2024).  
+*Sleep micro-structure organizes memory replay.* Nature.  
 
 
 CONTACT
