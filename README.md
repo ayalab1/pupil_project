@@ -8,17 +8,18 @@ Code accompanying the paper: Chang, H.*, Tang, W.*, et al. (2024). Sleep micro-s
 **Year**: 2024  
 **License**: All rights reserved.
 
-DESCRIPTION OF THE CODE CONTAINED IN THE ARCHIVE: Tang_Nature_2024.tgz
+### Description
+This repository contains the code and resources for analyses and figures presented in the paper. All scripts are included in the archive `Tang_Nature_2024.tgz`.
 
 
-BRIEF
-=====
+## Brief Overview
 
 Code accompanying the paper: Chang, H.*, Tang, W.*, et al. (2024). Sleep micro-structure organizes memory replay. Nature.
 
 
-GETTING STARTED
-===============
+## Getting Started
+
+### Prerequisites
 
 Launch MATLAB and cd into the directory containing the code (e.g. '/pupil_project/Main_figure/').
 
@@ -42,15 +43,15 @@ Data from animals included: HYC2, HYC3, PPP4, PPP7, PPP8, PPP10, PPP11, PPP12, P
 These codes were originally created in the MATLAB 2017a and 2023b. Source data produced from the scripts are provided along with the paper. 
 
 
-FILES and FOLDERS
+##FILES and FOLDERS
 =================
-# Code Organization
+### Code Organization
 
 This repository contains scripts and resources for analyzing data and generating figures for the project. Below is a breakdown of the folder structure and their respective scripts.
 
 ---
 
-## `./Fig1`
+### `./Fig1`
 Scripts for analyses and visualizations in **Figure 1**:
 
 - `pupil_periodic_Fig1c.m`: Main script for calculating the periodicity of pupil-size dynamics in **Fig. 1c**.
@@ -65,7 +66,7 @@ Scripts for analyses and visualizations in **Figure 1**:
 
 ---
 
-## `./Fig2`
+### `./Fig2`
 Scripts for analyses in **Figure 2**:
 
 - `Replay_triggered_pupil_acrossanimal_matchMUA_Fig2b.m`: Main script for calculating replay probabilities across pupil size sextiles during NREM (**Fig. 2b**). Includes firing-rate matched distribution (**EDFig. 5d**). See also `.../src/ReplayDecoding/` for replay decoding demonstration.
@@ -75,14 +76,14 @@ Scripts for analyses in **Figure 2**:
 
 ---
 
-## `./Fig3`
+### `./Fig3`
 Scripts for analyses in **Figure 3**:
 
 - `cal_Cheeseboard_pathLength_Fig3b.m`: Main script for calculating path length in the Cheeseboard task (**Fig. 3b**). Other behavioral measures are in Source Data files.
 
 ---
 
-## `./Fig4`
+### `./Fig4`
 Scripts for analyses in **Figure 4**:
 
 - `Reactivation_FamiliarNovel_triggered_pupil_acrossanimal_Fig4e.m`: Main script for calculating reactivation strength in novel vs. familiar environments across pupil sizes (**Fig. 4e**). See also `.../src/ReactivationStrength/`.
@@ -91,7 +92,7 @@ Scripts for analyses in **Figure 4**:
 
 ---
 
-## `./Fig5`
+### `./Fig5`
 Scripts for analyses in **Figure 5**:
 
 - `MUAINT_triggered_pupil_sleep_acrossanimal_Fig5b.m`: Main script for measuring the relationship between pupil size and PYR/INT firing rates (**Fig. 5b**, **EDFig. 10**).
@@ -102,7 +103,7 @@ Scripts for analyses in **Figure 5**:
 
 ---
 
-## Subfolders
+### Subfolders
 
 ### `./src`
 Contains demonstrations of key analysis steps, including:
@@ -118,16 +119,16 @@ Contains all required toolboxes. Refer to the original works from the developers
 
 
 
-CITING OUR WORK
-===============
+## CITING OUR WORK
+
 
 If you find the code useful, please cite the code source and the paper:
 **Chang, H.*, Tang, W.*, Wulf, A. M., Nyasulu, T., Wolf, M. E., Fernandez-Ruiz, A., & Oliva, A.** (2024).  
 *Sleep micro-structure organizes memory replay.* Nature.  
 
 
-CONTACT
-=======
+## CONTACT
+
 Bug reports, comments and questions are appreciated.
 Please write to: 
 	Wenbo Tang <wenbo.tang07@gmail.com>
