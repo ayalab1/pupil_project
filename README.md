@@ -20,7 +20,7 @@ Code accompanying the paper: Chang, H.*, Tang, W.*, et al. (2024). Sleep micro-s
 GETTING STARTED
 ===============
 
-Launch MATLAB and cd into the directory containing the code (e.g. '/Tang_Nature_2024/').
+Launch MATLAB and cd into the directory containing the code (e.g. '/pupil_project/Main_figure/').
 
 Other files in the directory (with all sub-folders) needed in path:  
 https://github.com/ayalab1/neurocode
