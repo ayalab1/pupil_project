@@ -7,7 +7,7 @@ Code accompanying the paper: Chang, H.*, Tang, W.*, et al. (2024). Sleep micro-s
 **Author**: Wenbo Tang  
 **Year**: 2024  
 **License**: All rights reserved.
-**Lab**: [Brain Computation and Behavior Lab](https://braincomputation.org/)
+-**Lab**: [Brain Computation and Behavior Lab](https://braincomputation.org/)
 
 ### Description
 This repository contains the code and resources for analyses and figures presented in the paper. All scripts are included in the archive `Tang_Nature_2024.tgz`.
