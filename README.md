@@ -43,7 +43,7 @@ Data from animals included: HYC2, HYC3, PPP4, PPP7, PPP8, PPP10, PPP11, PPP12, P
 These codes were originally created in the MATLAB 2017a and 2023b. Source data produced from the scripts are provided along with the paper. 
 
 
-##FILES and FOLDERS
+## FILES and FOLDERS
 =================
 ### Code Organization
 
