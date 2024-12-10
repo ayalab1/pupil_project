@@ -47,7 +47,7 @@ These codes were originally created in the MATLAB 2017a and 2023b. Source data p
 
 
 ## FILES and FOLDERS
-=================
+
 ### Code Organization
 
 This repository contains scripts and resources for analyzing data and generating figures for the project. Below is a breakdown of the folder structure and their respective scripts.
