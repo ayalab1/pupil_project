@@ -134,5 +134,8 @@ If you find the code useful, please cite the code source and the paper:
 
 Bug reports, comments and questions are appreciated.
 Please write to: 
-- **Wenbo Tang**: [wenbo.tang07@gmail.com](mailto:wenbo.tang07@gmail.com)  
+- **Wenbo Tang**: [wenbo.tang07@gmail.com](mailto:wenbo.tang07@gmail.com)
+- **Hongyu Chang**: [hc997@cornell.edu](mailto:hc997@cornell.edu)
+- **Antonio Fernandez-Ruiz**: [afr77@cornell.edu](mailto:afr77@cornell.edu)
 - **Azahara Oliva**: [aog35@cornell.edu](mailto:aog35@cornell.edu)
+
