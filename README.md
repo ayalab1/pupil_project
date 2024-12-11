@@ -41,7 +41,7 @@ Toolboxes required:
 
 - colormapformulae (version 1.0; https://www.mathworks.com/matlabcentral/fileexchange/66724-colormap-formulae) 
 
-Data from animals included: HYC2, HYC3, PPP4, PPP7, PPP8, PPP10, PPP11, PPP12, PPP13, PPP14, PPP15, PPP16, PVR4, PPP24, PPP25
+Data from animals included: HYC2, HYC3, PPP4, PPP7, PPP8, PPP10, PPP11, PPP12, PPP13, PPP14, PPP15, PPP16, PVR4, PPP24, PPP25. For detailed information on sessions and days, refer to the gathered function in each specific analysis.
 
 These codes were originally created in the MATLAB 2017a and 2023b. Source data produced from the scripts are provided along with the paper. 
 
