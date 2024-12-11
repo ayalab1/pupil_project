@@ -1,5 +1,5 @@
 # pupil_project <img src="image&videos/ayalab log_final.png" alt="Lab Logo" width="50">
-Code accompanying the paper: Chang, H.*, Tang, W.*, et al. (2024). Sleep micro-structure organizes memory replay. Nature.
+Code accompanying the paper: Chang, H.*, Tang, W *, et al. (2024). Sleep micro-structure organizes memory replay. Nature.
 
 <img src="image&videos/mouse_eye_naturallight.jpg" alt="Sleep Micro-Structure" width="600">
 <sub><em>Image taken by ZiFang Zhao, Hongyu Chang, and Heath Robinson</em></sub>
